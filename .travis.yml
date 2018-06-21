@@ -5,7 +5,7 @@ python: 3.5
 script: true
 deploy:
   provider: pypi
-  server: https://testpypi.python.org/pypi
+  server: https://test.pypi.org/legacy/
   user: dbogdanov
   distributions: sdist bdist_wheel
   password:
